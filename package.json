@@ -1,0 +1,23 @@
+{
+  "name": "node-transform-stream-example",
+  "version": "0.0.1",
+  "description": "How to read json data from a url via a stream, modify them and write them in a file",
+  "keywords": [
+    "stream",
+    "transform"
+  ],
+  "repository": "https://github.com/fdescamps/jsonStreamExample.git",
+  "homepage": "https://github.com/fdescamps/jsonStreamExample",
+  "author": "François Descamps",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "request": "^2.81.0"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 6.9.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
